@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Adnan Ali Portfolio</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Adnan</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home section" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Adnan</span><br>Web Developer</h1>
+                <a href="#contact" class="button">Contact</a>
+            </div>
+
+           
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+
+                    <defs>
+                        <clipPath id="blobClip">
+                            <path
+                                d="M9.19024 145.964C34.0253 76.5814 114.865 54.729 184.111 29.4826C245.804 6.973 311.86 -14.2958 370.735 14.0846C431.207 43.2322 467.948 107.508 477.904 173.449C488.167 241.49 474.584 314.882 425.577 361.141C377.665 406.365 310.052 416.087 245.701 439.268C178.018 463.633 108.169 495.957 55.1927 451.499C2.55838 407.346 -6.89039 333.812 3.44874 267.52C12.3437 210.497 -16.2437 155.801 9.19024 145.964Z" />
+                        </clipPath>
+                    </defs>
+
+                    <!-- Blob Background -->
+                    <path
+                        d="M9.19024 145.964C34.0253 76.5814 114.865 54.729 184.111 29.4826C245.804 6.973 311.86 -14.2958 370.735 14.0846C431.207 43.2322 467.948 107.508 477.904 173.449C488.167 241.49 474.584 314.882 425.577 361.141C377.665 406.365 310.052 416.087 245.701 439.268C178.018 463.633 108.169 495.957 55.1927 451.499C2.55838 407.346 -6.89039 333.812 3.44874 267.52C12.3437 210.497 -16.2437 155.801 9.19024 145.964Z"
+                        fill="#2563eb" />
+
+                    <!-- Image inside blob -->
+                    <image href="assets/img/profl1.png" width="420" x="20" y="40" clip-path="url(#blobClip)" />
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="container about__container">
+                <div class="about__img">
+                    <img src="assets/img/Profile.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I'm Adnan Ali</h2>
+                    <p class="about__text">
+                        I am a Web Developer and Software Engineering student with a strong interest in building
+                        responsive and user-friendly web applications. I work with HTML, CSS, and JavaScript to create
+                        clean and interactive interfaces, and I also have experience with Node.js and MongoDB for
+                        backend
+                        development. <br>
+                        With a solid academic foundation in programming, data structures, and database systems,
+                        I have developed many projects using different languages.
+                        I am continuously improving my full-stack development skills and seeking internship
+                        opportunities
+                        to gain practical industry experience.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== EDUCATION =====-->
+        <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="container">
+                <div class="education-card">
+                    <div class="education-icon"><i class='bx bx-graduation'></i></div>
+                    <div class="education-content">
+                        <h3>BE in Software Engineering</h3>
+                        <p style="color:#2563eb;">Mehran University of Engineering and Technology, SZAB Campus</p>
+                        <p>2nd Year | Expected Graduation: 2028</p>
+                        <p><strong>Relevant Coursework:</strong> OOP, Java, C++, DSA, SDA, Database</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="container skills-container">
+
+                <!-- Frontend Skills -->
+                <div class="skill-card">
+                    <h3><i class='bx bx-code-alt'></i> Frontend Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class='bx bxl-html5'></i> HTML5</div>
+                        <div class="skill-item"><i class='bx bxl-css3'></i> CSS3</div>
+                        <div class="skill-item"><i class='bx bxl-javascript'></i> JavaScript</div>
+                        <div class="skill-item"><i class='bx bxl-react'></i> React</div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skill-card">
+                    <h3><i class='bx bx-server'></i> Backend Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class='bx bxl-java'></i> Java</div>
+                        <div class="skill-item"><i class='bx bxl-nodejs'></i> Node.js</div>
+                        <div class="skill-item"><i class='bx bx-data'></i> Database</div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-card">
+                    <h3><i class='bx bx-tools'></i> Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item"><i class='bx bxl-git'></i> Git</div>
+                        <div class="skill-item"><i class='bx bxl-github'></i> GitHub</div>
+                        <div class="skill-item"><i class='bx bx-code-block'></i> VS Code</div>
+                        <div class="skill-item"><i class='bx bxl-codepen'></i> NetBeans</div>
+                        <div class="skill-item"><i class='bx bx-calculator'></i> DevC++</div>
+                        <div class="skill-item"><i class='bx bx-sitemap'></i> StarUML</div>
+                        <div class="skill-item"><i class='bx bx-network-chart'></i> Cisco Packet Tracer</div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-card">
+                    <h3><i class='bx bx-user-voice'></i> Soft Skills</h3>
+                    <div class="soft-skills">
+                        <span>Teamwork</span>
+                        <span>Communication</span>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== PROJECTS =====-->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <span class="project-badge">Java</span>
+                    <div class="project-image"><img src="assets/img/image.png" alt="Hostel Management System"></div>
+                    <div class="project-content">
+                        <h3>Hostel Management System</h3>
+                        <p>A Java-based desktop application for managing hostel operations including student
+                            registration, room allocation, fee management, and record maintenance.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>OOP</span>
+                            <span>Java Swing</span>
+                            <span>JDBC</span>
+                            <span>NetBeans</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AdnanAli789/Hostel-management-project-Java" target="_blank"
+                                class="project-link github"><i class='bx bxl-github'></i> View Code</a>
+                            <a href="https://drive.google.com/file/d/1A8nZBfQkA3UC1TYAez5M0unKwmoJaAUM/view?usp=drive_link"
+                                target="_blank" class="project-link video"><i class='bx bx-play-circle'></i> Project
+                                Video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <span class="project-badge">Java Game</span>
+                    <div class="project-image"><img src="assets/img/snake game.png" alt="Snake Game"></div>
+                    <div class="project-content">
+                        <h3>Snake Game</h3>
+                        <p>A classic Snake game built in Java Swing featuring increasing difficulty and score tracking.
+                        </p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>DSA</span>
+                            <span>OOP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AdnanAli789/Snake_Game.git" target="_blank"
+                                class="project-link github"><i class='bx bxl-github'></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container">
+                <form class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea placeholder="Message" class="contact__input"></textarea>
+                    <input type="button" value="Send" class="contact__button button">
+                </form>
+            </div>
+        </section>
+
+        <!-- CV Button Section -->
+<div class="cv-container">
+    <a href="assets/CV-Adnan-Ali.pdf" class="cv-button" target="_blank">View CV</a>
+</div>
+    </main>
+
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Adnan Ali</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/adnan-ali-569267323/" target="_blank" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/AdnanAli789" target="_blank" class="footer__icon"><i
+                    class='bx bxl-github'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Adnan Ali. All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
